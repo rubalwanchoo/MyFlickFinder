@@ -14,6 +14,7 @@
 		BE7057411D20D69F006EC92C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE70573F1D20D69F006EC92C /* LaunchScreen.storyboard */; };
 		BE70574C1D20D69F006EC92C /* MyFlickFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70574B1D20D69F006EC92C /* MyFlickFinderTests.swift */; };
 		BE7057571D20D69F006EC92C /* MyFlickFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7057561D20D69F006EC92C /* MyFlickFinderUITests.swift */; };
+		BE7057651D21D341006EC92C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7057641D21D341006EC92C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BE7057521D20D69F006EC92C /* MyFlickFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFlickFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7057561D20D69F006EC92C /* MyFlickFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlickFinderUITests.swift; sourceTree = "<group>"; };
 		BE7057581D20D69F006EC92C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7057641D21D341006EC92C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BE7057361D20D69F006EC92C /* AppDelegate.swift */,
 				BE7057381D20D69F006EC92C /* ViewController.swift */,
+				BE7057641D21D341006EC92C /* Constants.swift */,
 				BE70573A1D20D69F006EC92C /* Main.storyboard */,
 				BE70573D1D20D69F006EC92C /* Assets.xcassets */,
 				BE70573F1D20D69F006EC92C /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				BE7057391D20D69F006EC92C /* ViewController.swift in Sources */,
 				BE7057371D20D69F006EC92C /* AppDelegate.swift in Sources */,
+				BE7057651D21D341006EC92C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,53 +25,56 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TfM-vV-Mx4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TfM-vV-Mx4">
                                 <rect key="frame" x="0.0" y="61" width="414" height="200"/>
-                                <color key="backgroundColor" red="0.64705155780000001" green="1" blue="0.88856161700000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="M5o-cA-lYd"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Phrase" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SkR-ev-yd9" userLabel="PhraseSearchTextField">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Phrase" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SkR-ev-yd9" userLabel="PhraseSearchTextField">
                                 <rect key="frame" x="20" y="311" width="290" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Latitude" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Rj-kj-hTQ" userLabel="LatitudeTextField">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Latitude" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Rj-kj-hTQ" userLabel="LatitudeTextField">
                                 <rect key="frame" x="20" y="366" width="124" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Longitude" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OFg-aR-60O" userLabel="LongitudeTextField">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Longitude" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OFg-aR-60O" userLabel="LongitudeTextField">
                                 <rect key="frame" x="185" y="366" width="124.5" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latitude" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRp-m0-asx" userLabel="LatitudeLabel">
-                                <rect key="frame" x="20" y="421" width="124" height="14.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latitude" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRp-m0-asx" userLabel="LatitudeLabel">
+                                <rect key="frame" x="20" y="406" width="124" height="14.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Longitude" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uk-hJ-O4C" userLabel="LongitudeLabel">
-                                <rect key="frame" x="185" y="421" width="124.5" height="14.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Longitude" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uk-hJ-O4C" userLabel="LongitudeLabel">
+                                <rect key="frame" x="185" y="406" width="124.5" height="14.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNt-VT-Qwi" userLabel="PhraseSearchButton">
                                 <rect key="frame" x="352" y="312" width="43" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Search"/>
+                                <connections>
+                                    <action selector="phraseTextSearch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="drp-Vm-oC5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bu2-sP-LyQ" userLabel="GeoSearchButton">
                                 <rect key="frame" x="352" y="367" width="43" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Search"/>
+                                <connections>
+                                    <action selector="geoSearch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="spC-Cd-VYL"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dth-M8-8Bb" userLabel="ImageDescriptionLabel">
-                                <rect key="frame" x="20" y="457.5" width="374" height="40"/>
-                                <color key="backgroundColor" red="0.64705155780000001" green="1" blue="0.88856161700000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="20" y="442" width="374" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="5sD-59-rE2"/>
                                 </constraints>
@@ -83,7 +86,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="nRp-m0-asx" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.3" id="0vv-Cd-cLG"/>
-                            <constraint firstItem="nRp-m0-asx" firstAttribute="top" secondItem="9Rj-kj-hTQ" secondAttribute="bottom" constant="25" id="288-2v-aAL"/>
+                            <constraint firstItem="nRp-m0-asx" firstAttribute="top" secondItem="9Rj-kj-hTQ" secondAttribute="bottom" constant="10" id="288-2v-aAL"/>
                             <constraint firstItem="xNt-VT-Qwi" firstAttribute="top" secondItem="TfM-vV-Mx4" secondAttribute="bottom" constant="75" id="2Uk-sX-t30"/>
                             <constraint firstItem="OFg-aR-60O" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.3" id="2aU-Ap-RGj"/>
                             <constraint firstItem="nRp-m0-asx" firstAttribute="centerY" secondItem="9Rj-kj-hTQ" secondAttribute="centerY" id="2as-ZO-BTz"/>
@@ -92,7 +95,7 @@
                             <constraint firstItem="Dth-M8-8Bb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="6h8-zd-dRO"/>
                             <constraint firstItem="OFg-aR-60O" firstAttribute="top" secondItem="SkR-ev-yd9" secondAttribute="bottom" constant="25" id="6qW-Zm-Pxb"/>
                             <constraint firstAttribute="trailing" secondItem="Dth-M8-8Bb" secondAttribute="trailing" constant="20" id="8Pw-AF-76p"/>
-                            <constraint firstItem="4uk-hJ-O4C" firstAttribute="top" secondItem="OFg-aR-60O" secondAttribute="bottom" constant="25" id="9e5-Xv-Bxl"/>
+                            <constraint firstItem="4uk-hJ-O4C" firstAttribute="top" secondItem="OFg-aR-60O" secondAttribute="bottom" constant="10" id="9e5-Xv-Bxl"/>
                             <constraint firstItem="OFg-aR-60O" firstAttribute="leading" secondItem="9Rj-kj-hTQ" secondAttribute="trailing" constant="20" id="A84-MK-5Eb"/>
                             <constraint firstItem="xNt-VT-Qwi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SkR-ev-yd9" secondAttribute="trailing" constant="5" id="C96-Ct-HZP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xNt-VT-Qwi" secondAttribute="trailing" constant="-1" id="DJP-wm-zHm"/>
@@ -144,15 +147,15 @@
                                 <exclude reference="2as-ZO-BTz"/>
                                 <exclude reference="jui-FD-vKb"/>
                                 <exclude reference="sNH-pk-W8c"/>
+                                <exclude reference="jk6-bA-XSw"/>
+                                <exclude reference="tgO-4J-gxC"/>
+                                <exclude reference="6DY-2V-QeW"/>
+                                <exclude reference="zjO-0W-BQE"/>
                                 <exclude reference="2Uk-sX-t30"/>
                                 <exclude reference="C96-Ct-HZP"/>
                                 <exclude reference="GwP-Ye-Lad"/>
                                 <exclude reference="MvE-uS-CBd"/>
                                 <exclude reference="TKY-X3-V2Q"/>
-                                <exclude reference="6DY-2V-QeW"/>
-                                <exclude reference="zjO-0W-BQE"/>
-                                <exclude reference="jk6-bA-XSw"/>
-                                <exclude reference="tgO-4J-gxC"/>
                                 <exclude reference="DVC-wF-TA7"/>
                                 <exclude reference="GBY-hO-3t3"/>
                                 <exclude reference="dJG-0A-gc1"/>
@@ -162,6 +165,13 @@
                         </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="imageDescriptionLabel" destination="Dth-M8-8Bb" id="jqQ-hq-RV8"/>
+                        <outlet property="latTextSearch" destination="9Rj-kj-hTQ" id="bc6-U6-o7U"/>
+                        <outlet property="longTextSearch" destination="OFg-aR-60O" id="Oz1-CP-WsR"/>
+                        <outlet property="myImageView" destination="TfM-vV-Mx4" id="Qay-k6-oGA"/>
+                        <outlet property="phraseTextSearch" destination="SkR-ev-yd9" id="Onf-QY-un1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
